@@ -23,7 +23,6 @@ void loop(){
 
   float target_vel = 0.0; //degree
 
-  int16_t ENC_COUNT_0 = 0;
 
   while(1){
     run_pid_vel(target_vel,&motor1);
